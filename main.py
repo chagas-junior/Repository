@@ -7,3 +7,5 @@ df = pd.read_csv("https://raw.githubusercontent.com/hermeson883/data_science_wor
 grafico = px.bar(df, x='Linguagem', y='Desenvolvedores', color='Linguagem')
 
 st.plotly_chart(grafico)
+
+st.write("Chagas")
